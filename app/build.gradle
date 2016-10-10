@@ -5,6 +5,8 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "android.support.test.runner.AndroidUnitRunner"
         applicationId "id.sch.smktelkom_mlg.learn.intent3"
         minSdkVersion 15
         targetSdkVersion 23
